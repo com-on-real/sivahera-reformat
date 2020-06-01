@@ -1,0 +1,68 @@
+.footer
+	p, a
+		color: #000
+		
+	h3
+		color: $c-important
+		margin: 0 0 0 0
+	
+footer
+	position: absolute
+	left: 0
+	bottom: 0
+	width: 100%
+	background-color: #333
+	text-align: center
+	min-height: 100px
+	p, a
+		margin-top: 50px
+		color: #000
+
+strong
+	color: $c-important
+
+.gallery
+	margin-bottom: 20px
+
+.logo-img
+	height: 150px
+	width: 400px
+
+body
+	font-family: din-condensed, sans-serif
+	font-style: normal
+	font-weight: 300
+	text-align: justify
+
+	
+
+header
+	.slogant
+		font-family: 'Allura', cursive
+		text-transform: none !important
+		color: #FFF
+		font-size: 2em !important
+	h1
+		width: 100% !important
+
+
+.logo
+	width: 500px
+
+@include breakpoint('<=medium')
+	#navbar
+		display: none
+	.logo
+		width: 100%
+	.imgfill, .header
+		max-height: 50vh
+
+@inclide breakpoint('>medium')
+	.chooseLangMobile
+		display: none
+
+.adress
+	line-height: 5px
+
+h3
+	line-height: 5px
