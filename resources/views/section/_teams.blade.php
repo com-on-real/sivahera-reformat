@@ -21,7 +21,7 @@
                 <div class="col-md-3">
                     <div class="single-team" >
                         <div class="img">
-                            <img src="img/all/default-avatar.png" alt="">
+                            <img src="img/all/profile1.jpg" alt="">
                             <div class="content">
                                 <span class="default"><i class="flaticon-network"></i></span>
                                 <ul class="social">
@@ -38,7 +38,7 @@
                 <div class="offset-2 col-md-3">
                     <div class="single-team" >
                         <div class="img">
-                            <img src="img/all/default-avatar.png" alt="">
+                            <img src="img/all/profile2.jpg" alt="">
                             <div class="content">
                                 <span class="default"><i class="flaticon-network"></i></span>
                                 <ul class="social">
