@@ -11,16 +11,11 @@
     <!-- Mobile Specific Meta  -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    
-    
-
     <!-- CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/pogo-slider.min.css">
@@ -28,11 +23,17 @@
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/meanmenu.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
+    {{-- Custom --}}
+    <link rel="stylesheet" href="css/main.css">
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="">
 </head>
+
+
 
 <body>
     <div id="preloader"></div>
@@ -43,14 +44,11 @@
     </header>
 
 
-{{-- <div class="container">
-    <div class="row"> --}}
-
     @yield('container')
     {{-- </div>
 </div> --}}
     <!-- contact-details-area-start -->
-    <div class="contact-details-area">
+    <div class="contact-details-area" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -115,21 +113,17 @@
             </div>
         </div>
     </footer>
-
-    <script src="js/jquery-3.2.0.min.js"></script>
-    {{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> --}}
-    <script src="https://kit.fontawesome.com/e5ba52c6a0.js" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
     
-    <script src="{{ URL::asset('js/theme.js') }}"></script>
-    <!-- footer-end -->
-    <!-- gmap-script -->
+    <!-- Scripts -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.2.0.min.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.pogo-slider.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/parallax.js"></script>
     <script src="js/countdown.js"></script>
+    <script src="js/animated.headline.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/imagesLoaded-PACKAGED.js"></script>
     <script src="js/isotope-packaged.js"></script>
@@ -140,8 +134,27 @@
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/theme.js"></script>
     
-   
+    <script>
+        jQuery(document).ready(function($) {
+
+        $('.scroll').on('click',function (e) {
+            e.preventDefault();
+
+            var target = this.hash,
+            $target = $(target);
+
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+            }, 800, 'swing', function () {
+                window.location.hash = target;
+            });
+        });
+
+        });
+        TweenMax.staggerFrom(".heading", 0.8, {opacity: 0, y: 20, delay: 0.2}, 0.4);
+    </script>
 </body>
 
 </html>

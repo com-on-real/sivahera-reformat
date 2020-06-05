@@ -24,19 +24,11 @@
             </div>
         
             <div class="single-brand">
-                <img src="img/management/logo/UNDP_LOGO.png" alt="">
+                <img src="img/management/logo/UNDP_LOGO.png" alt="" style="height: 100px; width: 60px">
             </div>
         
             <div class="single-brand">
                 <img src="img/management/logo/COTECNA_LOGO.jpg" alt="">
-            </div>
-        
-            <div class="single-brand">
-                <img src="img/" alt="">
-            </div>
-        
-            <div class="single-brand">
-                <img src="img/" alt="">
             </div>
         </div>
     </div>

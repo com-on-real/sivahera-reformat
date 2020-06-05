@@ -13,13 +13,13 @@
                     <nav id="mobile_menu_active">
                         <ul>
                             <li>
-                                <a href="#a-propos">{{ __("A propos") }}</a>
+                                <a class="scroll" href="#a-propos">{{ __("A propos") }}</a>
                             </li>
                             <li>
-                                <a href="#fonctionnement">{{ __("Points Clés") }}</a>
+                                <a class="scroll" href="#fonctionnement">{{ __("Points Clés") }}</a>
                             </li>
                             <li>
-                                <a href="#cacao">{{ __("Le Cacao") }}</a>
+                                <a class="scroll" href="#cacao">{{ __("Le Cacao") }}</a>
                             </li>
                             <li>
                                 <a href="{{ route('home_path') }}">{{ __("Activité Management") }}</a>

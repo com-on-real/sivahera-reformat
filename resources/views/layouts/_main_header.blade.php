@@ -7,13 +7,14 @@
                     <div class="h5-slider-content">
                         <h2 class="title">SIVAHERA MANAGEMENT</h2>
                         <h1 class="cd-headline clip">
-                            <span class="blc">Specialiste en</span>
+                            <span class="blc">{{ __("Specialiste en") }}</span>
                             <span class="cd-words-wrapper">
                                 <b class="is-visible">Management</b>
-                                <b>Courtage</b>
-                                <b>Conseil</b>
-                                <b>Livraison international</b>
-                                <b>Dispositif Medical</b>
+                                <b>{{ __("Courtage") }}</b>
+                                <b>{{ __("Conseil") }}</b>
+                                <b>{{ __("Livraison International") }}</b>
+                                <b>{{ __("Dispositif Medical") }}</b>
+                                <b>{{ __("Commerce de gros") }}</b>
                             </span>
                         </h1>
                         <p class="text">{{ __("about_text") }}</p>

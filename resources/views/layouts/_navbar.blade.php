@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-2 col-sm-12 col-12">
                 <div class="logo">
-                    <a href="/">
+                    <a class="scroll" href="#about">
                         <img src="{{ URL::asset('img/all/logo.png') }}" alt="Sivahera Logo">
                     </a>
                 </div>
@@ -13,27 +13,27 @@
                     <nav id="mobile_menu_active">
                         <ul>
                             <li>
-                                <a href="#courtage">{{ __("Courtage") }}</a>
+                                <a class="scroll" href="#courtage">{{ __("Courtage") }}</a>
                             </li>
                             <li>
-                            <a href="#health_management">{{ __("Santé")}}</a>
+                            <a class="scroll" href="#health_management">{{ __("Santé")}}</a>
                                 <ul class="drop">
                                     <li>
-                                        <a href="">{{ __("Management de la Santé ") }}</a>
+                                        <a class="scroll" href="">{{ __("Management de la Santé ") }}</a>
                                     </li>
                                     <li>
-                                        <a href="">{{ __("Conseil") }}</a>
+                                        <a class="scroll" href="">{{ __("Conseil") }}</a>
                                     </li>
                                     <li>
-                                        <a href="">{{ __("Broker - Courtage") }}</a>
+                                        <a class="scroll" href="">{{ __("Broker - Courtage") }}</a>
                                     </li>
                                     <li>
-                                        <a href="">{{ __("Vente dans le domaine de la santé") }}</a>
+                                        <a class="scroll" href="">{{ __("Vente dans le domaine de la santé") }}</a>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#teams">{{ __("Equipe et partenaire") }}</a>
+                                <a class="scroll" href="#teams">{{ __("Equipe et partenaire") }}</a>
                             </li>
                             <li>
                                 <a href="{{ route('coffee_path') }}">{{ __("Activité café") }}</a>
@@ -46,7 +46,7 @@
             <div class="col-lg-3 col-sm-12 col-12">
                 <div class="search-consultant">
                     <div class="sc-consultant">
-                        <a class="link" href="#">{{ __("Prendre contact") }}</a>
+                        <a class="link scroll" href="#contact">{{ __("Prendre contact") }}</a>
                     </div>
                 </div>
             </div>
