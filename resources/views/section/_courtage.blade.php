@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="breadcumb">
-                    <h2 class="name">{{ __("Courtier - Courtage") }}</h2>
+                    <h2 class="name">{{ __("Courtage et commerce en gros") }}</h2>
                     <p style="color: white">{{ __("courtage_text") }}</p>
                 </div>
             </div>

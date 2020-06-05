@@ -5,7 +5,7 @@
             <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-12">
                 <div class="section-title">
                     <h6>{{ __("A Propos") }}</h6>
-                    <h2>{{ __("Nous Sommes Producteurs De Café") }}</h2>
+                    <h2>{{ __("Des cafés et cacao de pure origine") }}</h2>
                     <p>{!! __("coffee_text_intro") !!}</p>
                 </div>
             </div>

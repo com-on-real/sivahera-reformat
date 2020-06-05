@@ -6,7 +6,7 @@
             <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-12">
                 <div class="section-title">
                     <h6>{{ __("Qui sommes nous ?") }}</h6>
-                    <h2>{{ __("Une Equipe Suisse Et International") }}</h2>
+                    <h2>{{ __("Une equipe suisse et international") }}</h2>
                     <p>{{ __("teams_text") }}</p>
                 </div>
             </div>
@@ -25,8 +25,8 @@
                             <div class="content">
                                 <span class="default"><i class="flaticon-network"></i></span>
                                 <ul class="social">
-                                    <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="fas fa-envelope"></i></a></li>
+                                    {{-- <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li> --}}
+                                    <li><a href="mailto:psivahera@sivahera.com" target="_blank"><i class="fas fa-envelope"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -42,8 +42,8 @@
                             <div class="content">
                                 <span class="default"><i class="flaticon-network"></i></span>
                                 <ul class="social">
-                                    <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="fas fa-envelope"></i></a></li>
+                                    {{-- <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li> --}}
+                                    <li><a href="mailto:egamby@sivahera.com" target="_blank"><i class="fas fa-envelope"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -55,7 +55,7 @@
                 </div>
             </div>
 
-            <div class="row mt-5">
+            {{-- <div class="row mt-5">
                 <div class="offset-2 col-md-6">
                     <h3>Dr Joaquim PERES</h3>
                     <p>{{ __("joaquim_text") }}</p>
@@ -74,7 +74,7 @@
                         </div>
                     </div> 
                 </div>
-            </div>
+            </div> --}}
             
         </div>
 <hr class="mb-5">

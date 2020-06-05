@@ -1,4 +1,8 @@
 {
+    "Café": "Coffee",
+
+
+
     "Courtage": "Brokerage",
     "Santé": "Health",
     "Equipe et partenaire": "Team and Partner",
@@ -9,7 +13,7 @@
 
 
 
-    "Management Et Conseil": "Management And Advice",
+    "Management et Conseil": "Management and Advice",
 
     "A propos": "About",
     "about_text": "SIVAHERA MANAGEMENT SA, is a consulting firm specializing in management, strategy and organization. We advise, accompany and assist companies and institution in",
@@ -27,7 +31,7 @@
 
 
 
-    "Courtier - Courtage": "Broker – Brokerage",
+    "Courtage et commerce en gros": "Brokerage and wholesale",
     "courtage_text": "Intermediation; management of the sale and payment of raw material, domestic goods, cars, management commission and management of customer relationship <br/> Leadership, organization of brokerage and brokerage Manager",
 
 
@@ -35,16 +39,16 @@
 
 
     "Management de la Santé": "Health Management",
+    "Management de la santé": "Health Management",
     "health_management_text": "Health management involves many elements of interaction between services, including health centers, medical equipment, caregivers and patients, and the provision of products and equipment. Good organization and management are essential to manage these multiple interdependent functions. Health management standards (ISO 22886) and hand hygiene (ISO 23447).",
 
-    "Conseil": "",
+    "Conseil": "Consulting",
     "consulting_text": "Solutions to transformations in the health and social protection sector Solutions to strategic, organizational and digital issues",
 
-    "Broker - Courtage": "Broker – Brokerage",
     "broker_text": "Intermediation; management of the sale and payment of raw material, domestic goods, cars, management commission and management of customer relationship. Leadership, organization of brokerage and brokerage Manager",
     
-    "Vente dans le domaine de la santé": "",
-    "health_sale_text": "Produits médicaux jetables, produits de soins à domicile, produits hospitaliers, du mobilier et agencements en métal, pièces de rechange et fournitures",
+    "Vente dans le domaine de la santé": "Sales in the Health sector",
+    "health_sale_text": "Management of the sale and payment of Medical Disposable Products, Home Care Products, Hospital product, Metal Furniture and Accessory products, Spare parts and goods. <br/> Sale in the healthcare sector: Medical Disposable Products, Home Care Products, Hospital product, Metal Furniture and Accessory products, Spare parts, and goods:",
     "thermometers": "Thermometers, Digital Sphygmomanometers, Stethoscopes",
     "aspiration": "Aspiration, Nebulization and Pulse Oximeters",
     "air_pump": "Air Pumps and Mattress",
@@ -62,7 +66,7 @@
     
 
     "Qui sommes nous ?": "Who are we ?",
-    "Une Equipe Suisse Et International": "A Swiss And International Team",
+    "Une equipe suisse et international": "A swiss and international team",
     "teams_text": "A team of twenty professional partners in Switzerland and abroad Management",
 
     "emmanuelle_text": "Master in Business Law, Master in Communication and Marketing, company executive and founding manager",
@@ -71,7 +75,7 @@
     
     
     "Nos réferences": "Our references",
-    "Références Clients Et Fournisseurs": "Client And Commercial References",
+    "Références clients et fournisseurs": "Client and commercial references",
     "partenaire_sub_text": "Supplier and partner companies comply with ISO standards to ensure safe, reliable and trustworthy products and services provided.",
     
 
@@ -89,8 +93,8 @@
     "A Propos": "About",
     "Activité Management": "Management Activity",
 
-    "Nous Sommes Producteurs De Café": "We Are Producer Of Coffee",
-    "coffee_text_intro": "We are producer, trader-partner of cooperatives, Importer and Exporter of coffee from organic farming, Grand Cru, specialty coffees and blends. <br> We produce Fair Trade coffee, labeled, with cooperatives of small producers and sell roasted coffee in Central Europe.",
+    "Des cafés et cacao de pure origine": "Pure origin coffees and cocoa",
+    "coffee_text_intro": "We are producer, trader-partner of cooperatives, Importer and Exporter of coffee from organic farming, Grand Cru, specialty coffees and blends. <br> We produce Fair Trade coffee, labeled, with cooperatives of small producers and sell roasted coffee.",
 
     "Points Clés": "Key Points",
     "De la Plantation à la Tasse": "From the plantation to the cup",
@@ -102,6 +106,6 @@
     "fairtrade_text": "Certified coffees (AB, Ecocert Bio for Life) or in the process of certification, arabica and robusta.", 
 
     "Le Cacao": "Cacao",
-    "coffee_text_cacao": "In partnership with plantations united in cooperatives, we directly import and sell cocoa from Africa, in particular from the Congo. Cocoa beans (Theobroma cacao) come from cocoa trees growing in humid forests in the shade of the canopy. The cocoa trees come from preserved terroirs, from organic farming. The origin of our cocoas is certified and traceable. <br> The cocoa beans are harvested and packaged in a traditional and natural way. <br> The cocoa bean contains a number of substances of health interest. It is very rich in lipids and triglycerides. The xanthic bases (theobromine and caffeine) accompany proteins, flavonoids, minerals, with numerous cardiovascular benefits and antioxidant properties, stimulating, boosts concentration and memory." 
+    "coffee_text_cacao": "In partnership with plantations united in cooperatives, we directly import and sell cocoa from Africa, in particular from the Congo. Cocoa beans (Theobroma cacao) come from cocoa trees growing in humid forests in the shade of the canopy. The cocoa trees come from preserved terroirs, from organic farming. The origin of our cocoas is certified and traceable." 
 
 }

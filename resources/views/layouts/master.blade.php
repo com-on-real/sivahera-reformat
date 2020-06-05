@@ -10,16 +10,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Mobile Specific Meta  -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
     
-    <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
-    <script src="https://kit.fontawesome.com/e5ba52c6a0.js" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     
+
     <!-- CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <script src="{{ URL::asset('js/theme.js') }}"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -28,16 +28,14 @@
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/meanmenu.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/main.css">
+
 
     <!-- Favicon -->
-    {{-- <link rel="shortcut icon" type="image/png" href=""> --}}
+    <link rel="shortcut icon" type="image/png" href="">
 </head>
 
 <body>
-    {{-- <div id="preloader"></div> --}}
+    <div id="preloader"></div>
     <!-- header-start -->
     <header>
         @include('layouts/_pre-header')
@@ -117,9 +115,15 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/jquery-3.2.0.min.js"></script>
+    {{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> --}}
+    <script src="https://kit.fontawesome.com/e5ba52c6a0.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="{{ URL::asset('js/theme.js') }}"></script>
     <!-- footer-end -->
     <!-- gmap-script -->
-    {{-- <script src="js/jquery-3.2.0.min.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.pogo-slider.min.js"></script>
@@ -135,7 +139,7 @@
     <script src="js/jquery.mixitup.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script> --}}
+    <script src="js/bootstrap.min.js"></script>
     
    
 </body>

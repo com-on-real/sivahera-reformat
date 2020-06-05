@@ -5,7 +5,7 @@
             <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-12">
                 <div class="section-title">
                     <h6>{{ __("Nos réferences") }}</h6>
-                    <h2>{{ __("Références Clients Et Fournisseurs") }}</h2>
+                    <h2>{{ __("Références clients et fournisseurs") }}</h2>
                     <p>{{ __("partenaire_sub_text") }}</p>
                 </div>
             </div>

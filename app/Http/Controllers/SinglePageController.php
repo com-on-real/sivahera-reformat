@@ -13,6 +13,7 @@ class SinglePageController extends Controller
 
     public function management()
     {
+        
         return view("management");
     }
 
