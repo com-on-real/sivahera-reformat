@@ -2,9 +2,6 @@ const mix = require('laravel-mix');
 
 
 mix
-//  .combine(['resources/sass/theme/*'], 'public/css/theme.css')
-//  .combine(['resources/js/theme/*'], 'public/js/theme.js')watch
-
     .sass('resources/sass/main.sass', 'public/css/main.css')
     .copyDirectory('resources/js/theme/', 'public/js')
     .copyDirectory('resources/sass/theme/', 'public/css');

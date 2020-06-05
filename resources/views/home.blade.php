@@ -24,8 +24,8 @@
       <div class="inner">
         <h3 class="masthead-brand">Sivahera</h3>
         <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link {{ if () }}" href="#">Français</a>
-            <a class="nav-link" href="#">English</a>
+        <a class="nav-link {{ (session('locale') == 'fr') ? 'active' : '' }}" href="/fr">Français</a>
+            <a class="nav-link {{ (session('locale') == 'en') ? 'active' : '' }}" href="/en">English</a>
           </nav>
       </div>
     </header>
